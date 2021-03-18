@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #42BDB1;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.39);
+  padding: 3rem;
+  margin: auto;
+  width: 45rem;
+  margin-top: 8%;
+}
+
+.container__form {
+  border-left: 6px solid #59A39C;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container__form .all {
+  font-family: 'Rancho', cursive;
+  border: none;
+  padding: 10px;
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  color: #0c524b;
+  background: rgba(249, 249, 249, 0.87);
+}
+
+.container__form button {
+  cursor: pointer;
+  letter-spacing: 3px;
+  color: white !important;
+  background: #59A39C !important;
+  margin-bottom: 0px !important;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.container__form button:hover {
+  color: #295854 !important;
+}
+
+.container__form textarea {
+  max-width: 100%;
+  max-height: 16rem;
+}
+/*# sourceMappingURL=main.css.map */
